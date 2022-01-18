@@ -15,8 +15,8 @@ function Atmosfera(){
         
         <nav>	
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="asteroides.html">Asteróides</a></li>
+            <li><Link href="index.html">Home</Link></li>
+            <li><Link to="/Atmosfera">Asteróides</Link></li>
             </ul>
         </nav>
     </div>

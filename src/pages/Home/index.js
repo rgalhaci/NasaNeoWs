@@ -5,6 +5,7 @@ import protecao from '../../assets/protecao.jpg'
 import Camadas from '../../assets/Camadas.jpeg'
 import { Link } from 'react-router-dom'
 
+<title>Asteróides</title>
 
 function Home() {
     return (
@@ -18,12 +19,8 @@ function Home() {
 
                         <nav>
                             <ul>
-                                <li>
-                                    <a href="index.html">Home</a>
-                                </li>
-                                <li>
-                                <Link to="/Atmosfera">Asteróides</Link>
-                                </li>
+                                <li><Link href="index.html">Home</Link></li>
+                                <li><Link to="/Atmosfera">Asteróides</Link></li>
                             </ul>
                         </nav>
                     </div>
